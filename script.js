@@ -39,13 +39,13 @@ function elG (){
   <div class="bottom-content">
     <span>${element.time}</span>
     <div class="settings ">
-      <i class="uil uil-ellipsis-h" onclick="btnrm(this)"></i>
+      <i class="fa-solid fa-ellipsis" onclick="btnrm(this)"></i>
       <ul class="menu">
         <li onclick="edititem(${index})">
-          <i class="uil uil-pen"></i>Edit
+          <i class="fa-solid fa-pen"></i>Edit
         </li>
         <li onclick="delitem(${index})">
-          <i class="uil uil-trash"></i>Delete
+          <i class="fa-solid fa-trash"></i>Delete
         </li>
       </ul>
     </div>
